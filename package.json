@@ -1,0 +1,76 @@
+{
+  "name": "cra-multi-page-template",
+  "description": "create-react-app 多页应用配置模板，包含 dva 和 ant-design，开启 PWA，兼容 IE11 。",
+  "version": "3.0.0",
+  "keywords": [
+    "create-react-app",
+    "react-app-rewired",
+    "dva",
+    "ant-design",
+    "PWA",
+    "multi-page",
+    "template"
+  ],
+  "homepage": "https://goblin-laboratory.github.io/cra-multi-page-template/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goblin-laboratory/cra-multi-page-template.git"
+  },
+  "authors": [
+    "xiaosongxiaosong <kunkkaco@gmail.com> (https://github.com/xiaosongxiaosong)"
+  ],
+  "license": "MIT",
+  "bugs": "https://github.com/goblin-laboratory/cra-multi-page-template/issues",
+  "dependencies": {
+    "ant-design-pro": "^2.3.2",
+    "antd": "^3.19.8",
+    "dva": "^2.4.1",
+    "dva-loading": "^3.0.7",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.8.1",
+    "react": "^16.8.6",
+    "react-app-polyfill": "^1.0.1",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "lint": "eslint --ext .js src",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "last 1 ie version"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.12.0",
+    "customize-cra": "^0.2.14",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "prettier": "^1.18.2",
+    "react-app-rewired": "^2.1.3",
+    "webpack-bundle-analyzer": "^3.3.2"
+  }
+}
